@@ -24,9 +24,9 @@ class UI {
         const row = document.createElement('tr');
 
         row.innerHTML = `
-            <td>${link.title}</td>
-            <td>${link.description}</td>
-            <td><a href=${link.link} class="btn btn-outline-info click">Visit Site</a></td>
+            <td class="value">${link.title}</td>
+            <td class="value">${link.description}</td>
+            <td class="value"><a href=${link.link} class="btn btn-outline-info click">Visit Site</a></td>
             <td><a href="#" class="btn btn-danger btn-md delete"><i class="fas fa-trash"></i></a></td>
         `;
         

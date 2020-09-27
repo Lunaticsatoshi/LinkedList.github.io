@@ -2,7 +2,9 @@
     background-color: black;
     color: #ffffff;
 } */
-
+.value{
+    color: white;
+}
 .navbar-brand{
     font-size: 1.8rem;
 }
