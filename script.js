@@ -131,7 +131,6 @@ document.querySelector('#link-list').addEventListener('click', (e) => {
     UI.deleteLinks(e.target);
 
     //Remove Link from Storage
-    console.log(e.target.parentElement.previousElementSibling.querySelector('.click').getAttribute('href'))
     Store.deleteLinks(e.target.parentElement.previousElementSibling.querySelector('.click').getAttribute('href'));
 
     UI.showAlert('You have Sucessfully Deleted Element from List', 'danger')
